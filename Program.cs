@@ -319,6 +319,17 @@
                 x--;
             } while (x > 0);
             Console.WriteLine("End." + x);*/
+
+            int x = 7, y = 9;
+            int z = x ^ y; // ^ | & << >> ~
+            // x = 0000 0111
+            // y = 0000 1001
+
+            // z = 0000 0001
+            // z = 1 
+            Console.WriteLine(z);
+
+
         }
     }
 }
